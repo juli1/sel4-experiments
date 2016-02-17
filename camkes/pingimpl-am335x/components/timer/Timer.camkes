@@ -1,0 +1,13 @@
+component Timerbase{
+        hardware;
+        dataport Buf reg;
+        emits DataAvailable irq;
+}
+
+component Timer {
+    control;
+        dataport Buf            reg;
+        consumes DataAvailable  irq;
+		emits sig Prod_Pinger_activator;
+		emits sig Cons_PingMe_activator;
+}

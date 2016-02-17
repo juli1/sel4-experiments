@@ -1,0 +1,2 @@
+apps-$(CONFIG_APP_PINGIMPL) += pingimpl
+    pingimpl: libsel4 libmuslc libsel4platsupport libsel4muslccamkes libsel4sync libsel4debug libsel4bench

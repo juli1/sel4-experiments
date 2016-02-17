@@ -1,0 +1,5 @@
+config APP_PINGIMPL
+    bool "Generated CAmkES PingImpl application"
+    default n
+        help
+            Application generated from AADL
